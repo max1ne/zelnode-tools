@@ -1,6 +1,6 @@
 #!/bin/sh
 clear
-echo Zelnode Major Events (debug.log)
+echo Zelnode Major Events - debug.log
 echo 
 cat  ~/.zelcash/debug.log | egrep -i "Zelnode|Benchmark" | grep -v Ping | grep -v "Got bad" | grep -v "znw - invalid" | tee parse-debug-log.txt
 rm parse-debug-log.sh
