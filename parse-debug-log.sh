@@ -6,9 +6,9 @@ cat  ~/.zelcash/debug.log | grep Zelnode | grep -v Ping | grep -v "Got bad" | gr
 rm parse-debug-log.sh
 echo
 echo
-echo (zelcash-cli getinfo)
+echo zelcash-cli getinfo
 zelcash-cli getinfo
 echo
 echo
-echo (zelcash-cli getzelnodeinfo)
+echo zelcash-cli getzelnodeinfo
 zelcash-cli getzelnodeinfo
