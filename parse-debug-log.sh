@@ -10,5 +10,5 @@ echo zelcash-cli getinfo
 zelcash-cli getinfo
 echo
 echo
-echo zelcash-cli getzelnodeinfo
-zelcash-cli getzelnodeinfo
+echo zelcash-cli getzelnodestatus
+zelcash-cli getzelnodestatus
